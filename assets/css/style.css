@@ -1,0 +1,289 @@
+@font-face {
+  font-family: Montserat;
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Montserat;
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserat;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 30px;
+}
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.header_elems {
+  display: flex;
+  align-items: center;
+}
+.header_icons {
+  display: flex;
+  align-items: center;
+}
+.header_btns {
+  display: flex;
+  align-items: center;
+}
+.header_search {
+  margin-right: 40px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #156963;
+  padding: 8px 33px;
+}
+.btn_w {
+  color: #156963;
+  background-color: #fff;
+}
+
+.main_pic {
+  top: 0;
+  left: 0;
+  background: url("../img/bg-main.jpg") no-repeat center/cover;
+  height: 100vh;
+  width: 100vh;
+}
+.main_wrap {
+  display: flex;
+}
+.main_right {
+  margin-left: 110vh;
+  margin-top: 110px;
+}
+.main_block {
+  text-align: left;
+  margin-right: 56px;
+}
+.main_title {
+  font-weight: 500;
+  font-size: 68px;
+  margin-bottom: 24px;
+  color: #156963;
+}
+.main_text {
+  text-align: left;
+  font-weight: 400;
+  width: 493px;
+  align-items: left;
+  font-size: 18px;
+  vertical-align: 24px;
+}
+.main_prev-next {
+  margin-top: 110px;
+  display: flex;
+  font-size: 32px;
+  height: 160px;
+}
+.main_prev {
+  margin-right: 102px;
+  display: flex;
+  flex-direction: column;
+  padding: 39px 49px;
+}
+.main_prev-text {
+  color: #156963;
+}
+.main_next {
+  display: flex;
+  flex-direction: column;
+  background-color: #156963;
+  padding: 39px 49px;
+}
+.main_next-next {
+  margin-top: 110px;
+  display: flex;
+}
+.main_next-text {
+  color: white;
+}
+
+.container1 {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.card {
+  max-height: 155px;
+  gap: 32px;
+  margin-top: 142px;
+}
+.card_block {
+  background-color: #fff;
+  border: 1px solid #b9b9b9;
+  width: 300px;
+  height: 155px;
+}
+.card_flex {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  margin-left: 16px;
+}
+.card_block_title {
+  color: #156963;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 100px;
+  margin-left: 16px;
+  font-weight: bold;
+}
+.card_block_text {
+  font-size: 10px;
+  line-height: 16px;
+  margin-top: 16px;
+  margin-left: 16px;
+  max-width: 236px;
+}
+
+.feature {
+  margin-top: 80px;
+}
+.feature_title {
+  display: flex;
+  justify-content: space-between;
+}
+.feature_wrap {
+  display: flex;
+  gap: 55px;
+}
+.feature_txt {
+  border: 1px solid;
+  padding: 8px 12px 8px 12px;
+}
+.feature_img {
+  margin-bottom: 24px;
+  margin-top: 16px;
+  width: 100%;
+}
+.feature_text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 53px;
+}
+.feature_text-2 {
+  font-weight: 600;
+  margin-left: 63px;
+}
+
+.info {
+  margin-top: 100px;
+}
+.info_title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2C1500;
+  line-height: 56px;
+}
+.info_wrap {
+  display: flex;
+}
+.info_text {
+  color: #2C1500;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 75px;
+  line-height: 28px;
+}
+.info_img {
+  margin-left: 100px;
+}
+
+.visit {
+  margin-top: 100px;
+  margin-left: 100px;
+  background: url("../img/bg-get.jpg") no-repeat center center/cover;
+}
+.visit_title {
+  padding-top: 80px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.visit_btn {
+  padding: 10px 42px 10px 42px;
+  color: #FAFEFE;
+  background-color: #156963;
+  margin-top: 35px;
+  margin-bottom: 80px;
+  border: none;
+}
+
+.line {
+  color: #156963;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.footer {
+  margin-bottom: 70px;
+}
+.footer_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  gap: 80px;
+}
+.footer_block_logo {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 5%;
+  color: #156963;
+  margin-bottom: 24px;
+}
+.footer_block_title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18.77px;
+  color: #333333;
+  margin-bottom: 21px;
+}
+.footer_block_text {
+  font-weight: 400;
+  font-style: 13px;
+  line-height: 20px;
+  color: #4F4F4F;
+}
+.footer_block_email {
+  padding: 8px 87px 8px 13px;
+  border-radius: 2px;
+  border: 1px solid #F2F2F2;
+}
+.footer_block_btn {
+  padding: 6px 15px 6px 12px;
+  background: #156963;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px;
+}/*# sourceMappingURL=style.css.map */
